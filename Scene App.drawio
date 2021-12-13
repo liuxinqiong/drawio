@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T06:13:48.398Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="SAt3Ed5SO2AaKdmTPGAh" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T06:15:01.469Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="bJnZog41o9uBzYyoiHzs" version="15.9.1" type="github">
   <diagram id="NNj19-wDh0PSMjZ-5okp" name="第 1 页">
-    <mxGraphModel dx="3252" dy="1982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2078" dy="1331" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -379,7 +379,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="6Q1RmM2hZBrMVJdd7p9d-123" value="1. 监听相关事件&lt;br&gt;2. 处理更多派生事件，比如 drag&lt;br&gt;3. 交给 EventManager 处理" style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1710" y="-100" width="180" height="90" as="geometry" />
+          <mxGeometry x="1710" y="-110" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="6Q1RmM2hZBrMVJdd7p9d-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6Q1RmM2hZBrMVJdd7p9d-119" target="6Q1RmM2hZBrMVJdd7p9d-123" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -451,7 +451,7 @@
           <mxGeometry y="86" width="330" height="26" as="geometry" />
         </mxCell>
         <mxCell id="6Q1RmM2hZBrMVJdd7p9d-148" value="命名新世界：isFlagOn" style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1980" y="-110" width="180" height="90" as="geometry" />
+          <mxGeometry x="1960" y="-110" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="6Q1RmM2hZBrMVJdd7p9d-149" value="GroupTranaction" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" parent="1" vertex="1">
           <mxGeometry x="3060" y="100" width="210" height="86" as="geometry" />
@@ -600,7 +600,7 @@
         <mxCell id="6Q1RmM2hZBrMVJdd7p9d-185" value="+ reset()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#46495D;" parent="6Q1RmM2hZBrMVJdd7p9d-161" vertex="1">
           <mxGeometry y="294" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="6Q1RmM2hZBrMVJdd7p9d-165" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;curved=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="6Q1RmM2hZBrMVJdd7p9d-149" target="6Q1RmM2hZBrMVJdd7p9d-157" edge="1">
+        <mxCell id="6Q1RmM2hZBrMVJdd7p9d-165" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;curved=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6Q1RmM2hZBrMVJdd7p9d-149" target="6Q1RmM2hZBrMVJdd7p9d-157" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="3290" y="80" as="sourcePoint" />
             <mxPoint x="3450" y="80" as="targetPoint" />
