@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T06:15:01.469Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="bJnZog41o9uBzYyoiHzs" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T08:55:46.660Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="xkRnrYsVyKxI9x2kG9Ze" version="15.9.1" type="github" pages="2">
   <diagram id="NNj19-wDh0PSMjZ-5okp" name="第 1 页">
-    <mxGraphModel dx="2078" dy="1331" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="5153" dy="3037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -605,6 +605,38 @@
             <mxPoint x="3290" y="80" as="sourcePoint" />
             <mxPoint x="3450" y="80" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XzoBq6Ax6m3jyr9e4e9r" name="第 2 页">
+    <mxGraphModel dx="1826" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="XqMp3EgDkDjCI4y3aEVe-0" />
+        <mxCell id="XqMp3EgDkDjCI4y3aEVe-1" parent="XqMp3EgDkDjCI4y3aEVe-0" />
+        <mxCell id="XqMp3EgDkDjCI4y3aEVe-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XqMp3EgDkDjCI4y3aEVe-1" source="XqMp3EgDkDjCI4y3aEVe-2" target="XqMp3EgDkDjCI4y3aEVe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqMp3EgDkDjCI4y3aEVe-2" value="初始化 editor" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;rounded=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="XqMp3EgDkDjCI4y3aEVe-1">
+          <mxGeometry x="-70" y="90" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XqMp3EgDkDjCI4y3aEVe-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="XqMp3EgDkDjCI4y3aEVe-1" source="XqMp3EgDkDjCI4y3aEVe-3" target="XqMp3EgDkDjCI4y3aEVe-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqMp3EgDkDjCI4y3aEVe-3" value="配置不拦截的按键、屏蔽浏览器处理的按键" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=1;fontFamily=Comic Sans MS;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="XqMp3EgDkDjCI4y3aEVe-1">
+          <mxGeometry x="-105" y="220" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XqMp3EgDkDjCI4y3aEVe-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XqMp3EgDkDjCI4y3aEVe-1" source="XqMp3EgDkDjCI4y3aEVe-5" target="XqMp3EgDkDjCI4y3aEVe-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqMp3EgDkDjCI4y3aEVe-5" value="监听 keydown 和 keyup 事件" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=1;fontFamily=Comic Sans MS;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="XqMp3EgDkDjCI4y3aEVe-1">
+          <mxGeometry x="-105" y="360" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XqMp3EgDkDjCI4y3aEVe-8" value="1. 忽略不需要处理的事件源&lt;br&gt;2. 封装 KeyboardContext&lt;br&gt;3. 转发给 eventManager" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=1;fontFamily=Comic Sans MS;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="XqMp3EgDkDjCI4y3aEVe-1">
+          <mxGeometry x="-105" y="510" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XqMp3EgDkDjCI4y3aEVe-11" value="EventManager 集中管理多个事件，比如 MouseEvent、KeyboardEvent" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="XqMp3EgDkDjCI4y3aEVe-1">
+          <mxGeometry x="180" y="500" width="170" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
