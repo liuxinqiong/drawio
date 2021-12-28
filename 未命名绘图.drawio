@@ -1,1 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T10:25:37.938Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="6SfF4nwlNXzY74Rx7gSX" version="15.9.6" type="github"><diagram id="ji0PH94IFPn2RdvOK-jB" name="Page-1">7Znvj5owGMf/GpLbi1v4oYgvFc9bsrvLbV6y5N5VqNBZWlLKKfvr9xSKoEjilhjnYmIi/fZpab/9PC0Bw/GT7aNAafzMQ0wN2wy3hjMzbNsa2C78KaWolNHYqoRIkFAHNcKC/MJaNLWakxBne4GScypJui8GnDEcyD0NCcE3+2ErTvfvmqIId4RFgGhX/UFCGVeqZ48a/QsmUVzf2XLHVU2C6mA9kyxGId+0JOfBcHzBuayu+PKnmoBtUrQEE8u4qmVtVNMq2fqYgtHzqggXuvVerUkO5yowk+1BzXsa3Gcbd1Ws3r3Ni/gWvFhvOXm/1718IJprc77iYsmRCN9g7fUkZVE7l21IQhGD0nTFmVzoGgvKiJKIwXUAw8EChA8sJAHTJ7pC8hTUICY0fEIFz9WgM4mCdV2axlyQX9AtorpPqBZS8wPQtSMWqiXIJqgCZxDzWjthHUjPaLsX+IQyqYWAU4rSjCx300iQiAibcil5UrfiOQtxWI9pjWUQ64IyYY4SQlUm+DwhAfi1QCyDv+eFDvA55aL0zxm4g/FwVs5M8DVu1Yw8bzJxVAtCaUuf2v54MgVdLxSYire9BFgtmh4xT7AUBYTUDWpsdd56urhpksBytRa3EsB2PZ18OvGiXdd2m1eN3B/gZ3fwM+ypSmmCVU5P1M5QpLjDIXggOy4yXoHZMlBLNZsUr2QvmVmKAsKipzJmNmiU79oJJXFou6JlysckDDEr+ZBIogohxUvKCZOlU8Mp/MBQ3/w8NGDdbR/KVlMuUUi5AEQYzAWRch0x8LnBitGzoHcSSP2bRZeuoqbkVJrOBJNzBKYDbigpeai4qfd+66+gSWD5KW4oeVMQze6tDklOlyTnCDXlCfHKMyIJV/2LKvaApv8JmKF9GjDn2nwGRzcf3zYmZkiylGf47lO5BwGwjmXunLjtQ/80Vu7Jp9qZuBr2c7UkLLxb40KtAIwGMdhCxA2y64PMu/Rh5/ZDlrOjmBnO/Eba9ZFmWScek2dDbdSPmoSnlAgLxdqNrStky/EuzJbXz1aK8tsT2HVi5Q4ujNW4H6sAzCAsv5F1lWSNL/1wX7/DPoaWwBmWN66ukCuA6NJcdd/E77gi2as6C8MbWteI1uB8z+9QbL41lXWtL3bOw28=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-28T10:32:06.348Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="esMoMrRwfOMoloko0c_D" version="15.9.6" type="github">
+  <diagram id="ji0PH94IFPn2RdvOK-jB" name="Page-1">
+    <mxGraphModel dx="1426" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <object label="" id="0">
+          <mxCell />
+        </object>
+        <mxCell id="1" parent="0" />
+        <mxCell id="-sw6fyfZ8wNrQcN1TuiZ-1" value="KeyboardTrap" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="190" height="268" as="geometry" />
+        </mxCell>
+        <mxCell id="-sw6fyfZ8wNrQcN1TuiZ-2" value="- options: KeyboardTrapOptions" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#46495D;" parent="-sw6fyfZ8wNrQcN1TuiZ-1" vertex="1">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-sw6fyfZ8wNrQcN1TuiZ-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#46495D;" parent="-sw6fyfZ8wNrQcN1TuiZ-1" vertex="1">
+          <mxGeometry y="52" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-sw6fyfZ8wNrQcN1TuiZ-4" value="+ dispose():&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#46495D;" parent="-sw6fyfZ8wNrQcN1TuiZ-1" vertex="1">
+          <mxGeometry y="60" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-sw6fyfZ8wNrQcN1TuiZ-5" value="+ bind(key, handler):&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#46495D;" parent="-sw6fyfZ8wNrQcN1TuiZ-1" vertex="1">
+          <mxGeometry y="86" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-sw6fyfZ8wNrQcN1TuiZ-6" value="+ unbind(key, handler?):&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#46495D;" parent="-sw6fyfZ8wNrQcN1TuiZ-1" vertex="1">
+          <mxGeometry y="112" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-sw6fyfZ8wNrQcN1TuiZ-7" value="+ trigger(key):&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#46495D;" parent="-sw6fyfZ8wNrQcN1TuiZ-1" vertex="1">
+          <mxGeometry y="138" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-sw6fyfZ8wNrQcN1TuiZ-8" value="+ pause():&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#46495D;" parent="-sw6fyfZ8wNrQcN1TuiZ-1" vertex="1">
+          <mxGeometry y="164" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-sw6fyfZ8wNrQcN1TuiZ-9" value="+ continue():&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#46495D;" parent="-sw6fyfZ8wNrQcN1TuiZ-1" vertex="1">
+          <mxGeometry y="190" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-sw6fyfZ8wNrQcN1TuiZ-10" value="+ reset():&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#46495D;" parent="-sw6fyfZ8wNrQcN1TuiZ-1" vertex="1">
+          <mxGeometry y="216" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-sw6fyfZ8wNrQcN1TuiZ-11" value="+ isPaused():&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#46495D;" parent="-sw6fyfZ8wNrQcN1TuiZ-1" vertex="1">
+          <mxGeometry y="242" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i4OQ7mLKL22xQzSpQ-A0-1" value="&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;KeyboardTrapOptions&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;// 不交给浏览器处理的快捷键&lt;/p&gt;&lt;p&gt;shieldKeys: string[]&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="200" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
